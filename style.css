@@ -1,0 +1,119 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(224, 61, 61);
+    background-image: url('https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGlicmFyeXxlbnwwfHwwfHx8MA%3D%3D');
+
+    font-palette:initial;
+ }
+.navbar{
+    background-color: #eed9d9;
+    padding: 10px;
+}
+.container{
+    padding: 10px;
+}
+.book-container{
+    padding: 15px;
+    width: 25%; 
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    color: antiquewhite;
+    margin: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+.book-container h2{
+    color: rgb(141, 195, 195);
+}
+.book-container button{
+    background-color: rgb(179, 97, 203);
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    margin-top: 10px;
+}
+.add{
+    background-color: rgb(146, 184, 199);
+    color: black;
+    border-radius: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 40px;
+   position: fixed;
+   bottom: 30px;
+   right: 30px;
+}
+.pop-overlay{
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+.pop-box{
+    background-color: rgb(39, 147, 172);
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    z-index: 2;
+    display: none;
+}
+.pop-box input{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: solid black;
+}
+.pop-box textarea{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border:  black;
+}
+.pop-box input::placeholder{
+    color: black;
+}
+.pop-box textarea::placeholder{
+    color: black;
+}
+.pop-box button{
+    background-attachment: rgb(22, 21, 21);
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: 5px;
+    margin: 5px;
+}
+.pop-box input:focus{
+    outline:none;
+}
+.pop-box textarea:focus{
+    outline:none;
+}
+
